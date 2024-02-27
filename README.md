@@ -17,7 +17,7 @@ The goal of this project is to accurately predict the survival of passengers on 
     - Impute missing values in categorical columns using the most frequent value.
     - Apply one-hot encoding to categorical variables to prepare them for model input.
 
-3. Model Training and Selection**:
+3. Model Training and Selection:
     - Split the dataset into training and testing sets.
     - Define a parameter grid and use `GridSearchCV` for hyperparameter tuning on an XGBoost classifier, optimizing for accuracy.
     - Evaluate the best model's performance on a test set.
