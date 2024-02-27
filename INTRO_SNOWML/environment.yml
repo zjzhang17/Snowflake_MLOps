@@ -1,0 +1,23 @@
+name: Intro_SnowML
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.10
+  - ipykernel
+  - nbconvert
+  - nbformat
+  - python-dotenv
+  - seaborn
+  - snowflake-snowpark-python[pandas]
+  - scikit-learn
+  - xgboost
+  - absl-py
+  - anyio
+  - cloudpickle
+  - numpy
+  - packaging
+  - pandas
+  - pyyaml
+  - typing-extensions
+  - pip:
+    - snowflake-ml-python
